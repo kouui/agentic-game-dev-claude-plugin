@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agentic-game-dev-claude-plugin",
+  "description": "Claude Code plugins for agentic game development. This repo is only an index: each plugin lives in its own repository.",
+  "owner": {
+    "name": "kouui"
+  },
+  "plugins": [
+    {
+      "name": "godot",
+      "description": "Build, fix and verify Godot 4.7 games headlessly: a godot-game-builder subagent with a bundled skill, dispatcher tools, linting, scripted scenarios and exports.",
+      "category": "development",
+      "source": {
+        "source": "github",
+        "repo": "kouui/godot-skill-lite"
+      },
+      "homepage": "https://github.com/kouui/godot-skill-lite"
+    },
+    {
+      "name": "unity-headless-cli",
+      "description": "Set up a Unity project to be driven headless from the terminal, with no GUI and no MCP server: create GameObjects, edit assets, run tests and evaluate C#.",
+      "category": "development",
+      "source": {
+        "source": "github",
+        "repo": "kouui/unity-headless-cli-plugin"
+      },
+      "homepage": "https://github.com/kouui/unity-headless-cli-plugin"
+    }
+  ]
+}
